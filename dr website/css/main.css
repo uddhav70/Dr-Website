@@ -1,0 +1,411 @@
+body,html{
+    scroll-behavior: smooth;
+}
+.logo{
+    height: 15%;
+    width: 15%;
+}
+.fontstyle{
+    font-family: fantasy;
+}
+.navbar {
+    transition: 0.5s;
+}
+.navul{
+    padding: 10px;
+}
+.navul1{
+    padding: 15px;
+}
+
+.a2{
+    position: relative;
+    text-decoration: none;
+    font-weight: 900;
+    
+}
+.a2:after{
+    content: "";
+    position: absolute;
+    background-color: #104099;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.a2:hover:after{
+    width: 100%;
+}
+
+.vertical-center {
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.getintouch{
+    color: #e3aa00;
+    font-size: 50px;
+    text-align: center;
+    margin:0;
+    line-height: 60px;
+}
+
+.hr1{
+    margin-top: 10px;
+    height: 3px;
+    background: #cecece;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+    opacity: 1.0;
+    background-color: white;
+    transition: 0.6s;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* inde page facebook */
+.facebook-button{
+    padding: 12px;
+    font-size: 20px;
+    width: 50px;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 0;
+    font-weight: 600;
+    background-color:#3B5998;
+    cursor: pointer;
+}
+.fa-hov{
+    color: #ffffff;
+    padding: 12px 20px 12px 11px;
+}
+.fa-hov:hover{
+    color: #104099;
+    
+}
+
+.facebook-button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.sub{
+    background-color: #3B5998;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 40px;
+    border-color: #f4f1e8;
+    margin-bottom: 30px;
+}
+
+.sub:hover{
+    opacity: 85%;
+    transition: 0.3s;
+}
+
+.text3{
+    background-color: #f4f1e8;
+}
+.text1{
+    font-family: 'Century Gothic Regular',Helvetica,Arial,Lucida,sans-serif;
+    color: #e3aa00!important;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.text2{
+    color: #3B5998!important;
+    padding-left: 100px;
+    line-height: 1.8em;
+    padding-right: 100px;
+    font-size: 1rem;
+    padding-bottom: 100px;
+    font-weight: 400;
+}
+
+.checked {
+    color: orange;
+    width: 0;
+    padding: 10px;
+}
+
+.text-reset{
+    color: dimgrey;
+}
+
+
+.gallery{
+	padding: 20px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 10px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+    margin-bottom: 10px;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+.zoom{
+    opacity: 1;
+    display: block;
+    transition: .2s ease;
+    backface-visibility: hidden;
+    margin: 0 auto;
+}
+.zoom:hover{
+    opacity: 0.6;
+    transform: scale(1.1); 
+    /* height: 100px;
+    width: 100px; */
+}
+
+.banner-image{
+    background-image: url(../photo/dental11.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.treatments-section{
+    
+    align-items: center;
+}
+
+.nav-link:hover{
+    background-color: #104099;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.letter{
+    font-size: 44px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: #e3aa00;
+    text-align: center;
+}
+
+.aa{
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    background: #ffff;
+}
+.mySlides {
+    display: none;
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    /* padding: 16px; */
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+q {
+    font-style: italic;
+}
+.author {
+    color: #343a40;
+    font-weight: 900;
+}
+
+.text4{
+    color: #3B5998!important;
+    /* padding-left: 100px; */
+    /* padding-right: 300px; */
+    line-height: 1.8em; 
+    font-size: 1rem;
+    /* padding-bottom: 100px; */
+    font-weight: 400;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.whatsapp-btn-container {
+    position: fixed;
+    right: 30px;
+    opacity: 0;
+    bottom: -50px;
+    padding: 35px 24px 24px 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+}
+
+@keyframes fade-up {
+    100% {
+        bottom: 24px;
+        opacity: 1;
+    }
+}
+
+.whatsapp-btn-container .whatsapp-btn {
+    font-size: 43px;
+    /* color: #00ff5f; */
+    /* display: inline-block; */
+    /* transition: all 400ms; */
+    color: rgb(255, 255, 255);
+    width: 61px;
+    cursor: pointer;
+    height: 62px;
+    /* margin: 0px auto 20px; */
+    /* padding-bottom: 62px; */
+    display: block;
+    position: relative;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 6px 1px;
+    text-align: center;
+    transition: all 250ms ease-in-out 0s;
+    visibility: visible;
+    user-select: none;
+    border-radius: 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-color: rgb(0 221 37);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    outline: none !important;
+    max-width: none !important;
+}
+
+.whatsapp-btn-container .whatsapp-btn:hover {
+    transform: scale(1.2);
+}
+
+.whatsapp-btn-container span {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #00ff00;
+    transform: rotateZ(20deg) translateX(10px);
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.whatsapp-btn-container .whatsapp-btn:hover + span {
+    transform: rotateZ(0deg) translateX(0px);
+    opacity: 1;
+}
+
+.phone-btn-container {
+    position: fixed;
+    right: 30px;
+    opacity: 0;
+    bottom: -50px;
+    padding: 35px 24px 24px 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+}
+
+@keyframes fade-up {
+    100% {
+        bottom: 24px;
+        opacity: 1;
+    }
+}
+
+.phone-btn-container .phone-btn {
+    font-size: 33px;
+    color: #006701;
+    /* display: inline-block; */
+    /* transition: all 400ms; */
+    color: rgb(255, 255, 255);
+    width: 62px;
+    cursor: pointer;
+    height: 62px;
+    margin: 0px 70px 0px -18px;
+    padding-top: 5px;
+    display: block;
+    position: relative;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 6px 1px;
+    text-align: center;
+    transition: all 250ms ease-in-out 0s;
+    visibility: visible;
+    user-select: none;
+    border-radius: 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-color: #0066ff;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    outline: none !important;
+    max-width: none !important;
+}
+
+.phone-btn-container .phone-btn:hover {
+    transform: scale(1.2);
+}
+
+.phone-btn-container span {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #0066ff;
+    transform: rotateZ(20deg) translateX(10px);
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.phone-btn-container .phone-btn:hover + span {
+    transform: rotateZ(0deg) translateX(0px);
+    opacity: 1;
+}
+
+.fa:hover{
+    background-color: unset;
+}
+
+.fa1{
+    padding: unset;
+}
