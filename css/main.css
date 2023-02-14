@@ -38,10 +38,15 @@ body,html{
     width: 100%;
 }
 
-.container.content {
-    margin-top: -600px;
-    margin-bottom: 600px;
-}
+.vertical-center {
+    margin: 0;
+    margin-left: 100px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
 .getintouch{
     color: #e3aa00;
@@ -137,7 +142,7 @@ body,html{
     padding-left: 100px;
     line-height: 1.8em;
     padding-right: 100px;
-    font-size: 17px;
+    font-size: 1rem;
     padding-bottom: 100px;
     font-weight: 400;
 }
@@ -256,7 +261,7 @@ q {
     /* padding-left: 100px; */
     /* padding-right: 300px; */
     line-height: 1.8em; 
-    font-size: 18px;
+    font-size: 1rem;
     /* padding-bottom: 100px; */
     font-weight: 400;
     margin-left: 70px;
